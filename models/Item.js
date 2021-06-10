@@ -14,6 +14,6 @@ const Item = new Schema({
     type: Boolean,
     required: true
   }
-})
+}, { timestamps: true })
 
 module.exports = model('Item', Item)
